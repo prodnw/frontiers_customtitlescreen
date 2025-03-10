@@ -1,0 +1,45 @@
+{
+	"Groups": [
+	   {
+		  "Name": "main",
+		  "DisplayName": "Options",
+		  "Elements": [
+			 {
+				"Name": "IncludeDir1",
+				"DisplayName": "Sonic Model",
+				"Description": [
+				   "Match the Sonic model to the one you're using."
+				],
+				"Type": "SonicModel",
+				"MinValue": null,
+				"MaxValue": null,
+				"DefaultValue": "sonic_basefrontiers"
+			 }
+		  ]
+	   }
+	],
+
+		"Enums": {
+ 
+	   "SonicModel":
+	   [
+
+		{
+			"DisplayName": "Base Frontiers Model",
+			"Value": "sonic_basefrontiers",
+			"Description": [
+			   "Uses the model from base Frontiers."
+			]
+		 },
+
+		{
+			"DisplayName": "Sock's Rio Sonic",
+			"Value": "sonic_rio",
+			"Description": [
+			   "Uses Sock's Rio Sonic model - https://gamebanana.com/mods/502762"
+			]
+		 },
+	  ]
+	},
+	"IniFile": "mod.ini"
+ }
